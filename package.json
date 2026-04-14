@@ -1,9 +1,14 @@
 {
   "name": "petstore-api-playwright",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright + TypeScript API automation framework built for Abstracta's practical challenge using Swagger Petstore.",
   "main": "index.js",
-  "scripts": {},
+    "scripts": {
+    "test": "playwright test",
+    "test:endpoint": "playwright test tests/api/endpoint",
+    "test:e2e": "playwright test tests/api/e2e",
+    "report": "playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

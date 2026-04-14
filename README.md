@@ -229,7 +229,7 @@ This flow is intentionally independent from Part 1.
 │
 ├── playwright.config.ts
 ├── package.json
-└── tsconfig.json
+
 ```
 
 ### Folder responsibilities
